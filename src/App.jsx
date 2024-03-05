@@ -4,7 +4,7 @@ import './App.css'
 import image from "./assets/Ben-Carson.webp"
 
 function App() {
- const [show, setShow] = useState(false)
+ const [show, setShow] = useState(true)
 
 function handleClick (args){
   setShow(!show)
